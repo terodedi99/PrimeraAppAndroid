@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10sp"
+    android:orientation="vertical"
+    tools:context=".DetallesProducto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/detallesProducto"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center|right"
+            android:text="@string/detallesProducto"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="34dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="77sp"
+            android:layout_marginBottom="12sp"
+            android:layout_weight="1"
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/editar" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="8sp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|right"
+                android:text="@string/lblNombre"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtNombreP"
+                android:layout_width="304dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="25sp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center|left"
+                android:hint="Escriba el nuevo nombre aquí"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|right"
+                android:text="@string/lblCantidad"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtCantidadP"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="25sp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center_horizontal|left"
+                android:hint="Especifique otra cantidad aquí"
+                android:inputType="number|textPersonName"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblAutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|right"
+                android:text="@string/lblAutor"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtAutorP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="25sp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center|left"
+                android:hint="Modifique el autor aquí"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnGuardarP"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/btnGuardar"
+        android:textColor="#353333"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnBorrarCampos"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/btnBorrarCampos"
+        android:textColor="#353333"
+        android:textSize="16sp" />
+
+</LinearLayout>

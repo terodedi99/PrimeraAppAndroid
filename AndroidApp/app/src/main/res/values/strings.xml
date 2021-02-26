@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lista de la compra</string>
+    <string name="lblPregunta">¿Cómo te llamas?</string>
+    <string name="lblTitulo">Lista de la compra</string>
+    <string name="btnVamos">Vamos!</string>
+    <string name="title_activity_lista_compra">Lista de la compra</string>
+    <string name="title_activity_lista">Lista</string>
+    <string name="lblSeleccionado">Producto seleccionado:</string>
+    <string name="btnVolver">Volver</string>
+    <string name="txtNombre">Introduzca su nombre aquí</string>
+    <string name="anadirContacto">Añadir contacto</string>
+    <string name="acercaDe">Acerca de...</string>
+    <string name="editar">Editar</string>
+    <string name="lblNombre">Nombre:</string>
+    <string name="lblCantidad">Cantidad:</string>
+    <string name="lblAutor">Autor:</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="actualizar">Actualizar lista</string>
+    <string name="anadirProducto">Añadir producto</string>
+    <string name="detallesProducto">Detalles del producto</string>
+    <string name="tvCant">Cantidad:</string>
+    <string name="tvCantidad">Cant:</string>
+    <string name="eliminar">Eliminar producto</string>
+    <string name="btnInsertarOtroP">Insertar otro producto</string>
+    <string name="btnBorrarCampos">Borrar campos de texto</string>
+    <string name="instrucciones">Instrucciones</string>
+</resources>

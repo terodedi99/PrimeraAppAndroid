@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10sp"
+    android:orientation="vertical"
+    tools:context=".AnadirProducto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+
+        <TextView
+            android:id="@+id/anadirProducto"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="5sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center|right"
+            android:text="@string/anadirProducto"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/anadir2" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="395dp"
+        android:layout_height="104dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="8sp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|right"
+                android:text="@string/lblNombre"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtNombreP"
+                android:layout_width="304dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="25sp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center|left"
+                android:hint="Escriba el nombre del producto aquí"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lblCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="bottom|right"
+                android:text="@string/lblCantidad"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtCantidadP"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="25sp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center_horizontal|left"
+                android:hint="Especifique la cantidad aquí"
+                android:inputType="number|textPersonName"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnGuardarP"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/btnGuardar"
+        android:textColor="#353333"
+        android:textSize="16sp" />
+
+</LinearLayout>
